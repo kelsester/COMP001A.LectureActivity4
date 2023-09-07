@@ -19,7 +19,100 @@
     </header>
 
     <main>
-        
+        <!--beginning of the form element-->
+        <form action="/submit" method="post">
+            <!--label and input text field-->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+
+            <br> <!--adds a break line-->
+
+            <!--label and password input field-->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+
+            <br>
+
+            <!--label and email input field-->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com">
+
+            <br>
+
+            <!--label and number input field-->
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="1" max="100">
+
+            <br>
+
+            <!--radio buttons for gender selection-->
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+            
+            <br>
+
+            <!--checkbox for newsletter subscription-->
+            <label for="subscribe">Subscribe to newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+            <br>
+
+            <!--dropdown select for country selection-->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+            </select>
+
+            <br>
+
+            <!--text area for additional comments-->
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="58"></textarea>
+
+            <br>
+
+            <!--file input for uploading files-->
+            <label for="file">Upload your photo:</label>
+            <input type="file" id="file" name="file">
+
+            <br>
+
+            <!--hidden input field-->
+            <input type="hidden" id="userId" name="userId" value="12345">
+
+            <br>
+
+            <!--range input for selecting value within a range-->
+            <label for="volume">Volume:</label>
+            <input type="range" id="volume" name="volume" min="0" max="10">
+
+            <br>
+
+            <!--date input-->
+            <label for="birthday">Birth Date:</label>
+            <input type="date" id="birthdate" name="birthdate">
+
+            <br>
+
+            <!--color input-->
+            <label for="favcolor">Favorite Color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+
+            <br>
+            
+            <!--submit button-->
+            <input type="submit" value="Submit">
+
+            <!--reset button-->
+            <input type="reset" value="Reset">
+        </form>
     </main>
 
     <footer>
