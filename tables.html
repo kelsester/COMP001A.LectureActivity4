@@ -19,7 +19,113 @@
     </header>
 
     <main>
+        <!--div container for building tables with fixed size-->
+        <div id="table1">
+            <!--table with fixed size-->
+            <table style="width: 1000px;">
+                <h2>Table with absolute width values</h2>
+                <!--table header-->
+                <thead>
+                    <!--table row for the header-->
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <!--table body-->
+                <tbody>
+                    <tr>
+                        <!--table data cell-->
+                        <td>Data 1.1</td>
+                        <td>Data 1.2</td>
+                    </tr>
+                    <tr>
+                        <!--table data cell-->
+                        <td>Data 2.1</td>
+                        <td>Data 2.2</td>
+                    </tr>
+                    <tr>
+                        <!--table data cell-->
+                        <td>Data 3.1</td>
+                        <td>Data 3.2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         
+        <hr>
+        
+        <div id="table2">
+            <!--table with fixed size-->
+            <table style="width: 100%;">
+                <h2>Responsive table using relative width values</h2>
+                <!--table header-->
+                <thead>
+                    <!--table row for the header-->
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <!--table body-->
+                <tbody>
+                    <tr>
+                        <!--table data cell-->
+                        <td>Data 1.1</td>
+                        <td>Data 1.2</td>
+                    </tr>
+                    <tr>
+                        <!--table data cell-->
+                        <td>Data 2.1</td>
+                        <td>Data 2.2</td>
+                    </tr>
+                    <tr>
+                        <!--table data cell-->
+                        <td>Data 3.1</td>
+                        <td>Data 3.2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr>
+
+        <div id="table3">
+            <!--table with fixed size-->
+            <table style="width: 1000px;">
+                <h2>Responsive table with merged cells</h2>
+                <!--table header-->
+                <thead>
+                    <!--table row for the header-->
+                    <tr>
+                        <th rowspan="2">Header 1</th> <!--spans 2 rows vertically-->
+                        <th colspan="2">Header 2</th> <!--spans 2 columns horizontally-->
+                    </tr>
+                    <tr>
+                        <th>Subheader 1</th>
+                        <th>Subheader 2</th>
+                    </tr>
+                </thead>
+                <!--table body-->
+                <tbody>
+                    <tr>
+                        <!--table data cell-->
+                        <td>Data 1.1</td>
+                        <td>Data 1.2</td>
+                    </tr>
+                    <tr>
+                        <!--table data cell-->
+                        <td>Data 2.1</td>
+                        <td>Data 2.2</td>
+                    </tr>
+                    <tr>
+                        <!--table data cell-->
+                        <td>Data 3.1</td>
+                        <td>Data 3.2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
     <footer>
