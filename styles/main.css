@@ -6,3 +6,15 @@ nav ul li{
     display: inline-block;
     padding: 10px;
 }
+nav a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+main a{
+    color: rgb(80, 80, 80);
+}
+nav a:hover, 
+main a:hover{
+    text-decoration: underline;
+    color: black;
+}
